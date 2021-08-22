@@ -2,7 +2,7 @@
 //$(`div`).css(`background-color`, `orange`);
 //$(`p`).html(`<strong></strong>`);
 //$(`div`).apend(`<strong>another<strong>`);
-// $(`div`).remove();
+//$(`div`).remove();
 
 $(`button`).click (() => {
     $(`.first`).toggleClass(`hidden`);
