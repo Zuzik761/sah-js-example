@@ -1,3 +1,14 @@
+// 4th part
+//$(`div`).css(`background-color`, `orange`);
+//$(`p`).html(`<strong></strong>`);
+//$(`div`).apend(`<strong>another<strong>`);
+// $(`div`).remove();
+
+$(`button`).click (() => {
+    $(`.first`).toggleClass(`hidden`);
+})
+
+// from 1st part to the 3rd
 console.log("JavaScript is working");
 
 let colors = ["orange", "blue", "red", "white", "black"]
